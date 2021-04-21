@@ -127,3 +127,21 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+*.iml
+*.iml
+.idea/bootcamp_finalproject.iml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+setup.py
+.idea/bootcamp_finalproject.iml
+setup.py
+.idea/bootcamp_finalproject.iml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+setup.py

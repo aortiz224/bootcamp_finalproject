@@ -1,0 +1,234 @@
+What is the question Id like to research?
+    How big is the overall NFT market?
+    Is the sale of NFTs inflated or hyped?
+    What is the true valuation of the overall NFT marketplace?
+    How much does it cost to make your own NFT?
+    What are the likely margins for your NFT?
+    How many wallets on Ethereum?
+    How many wallets on Bitcoin Cash?
+    How many wallets on
+
+Notes:
+
+
+Data Resources:
+- Coinbase API
+    Why coinbase?
+    Their recent initial public offering was large success. The company chose to do
+    a direct listing, which in its own way, is like an initial coin offering. ICOs
+    or Initial Coin Offerings are easy in today's current programming environment.
+    Anyone with a little knowledge of a blockchain can code their own. Coinbase, however,
+    knew that the SEC and other governing agencies were watching very closely and
+    aligned their value proposition with that of a feasible, legal, and efficient
+    way to get blockchain cryptocurrencies on the market. Banks like SoFi now offer access to buy into cryptocurrencies directly from the
+    mobile application.
+
+    The data from Coinbase API will provide real time prices for the cryptocurrencies
+    they have listed. By using Python, Javascript, Ruby, or Curl, our team can access
+    the data and integrate it into our project about NFTs, which reside on a blockchain.
+
+    Furthermore, understanding how Coinbase's API works will benefit the students
+    of the bootcamp because Coinbase currently opened brand new positions in
+    Denver, Boulder, Austin, Portland, Los Angeles, Seattle, Dallas, San Francisco,
+    Atlanta, Chicago, New York, and Raleigh for their "Asset Listing Researcher" role.
+
+    The job duties of this role are listed below (see LinkedIn URLs):
+        - Study blockchain projects to understand their use cases;
+        - Research the backing technology and susceptibility to blockchain analysis;
+        - Perform due diligence on UBOs, founders and project teams;
+        - Evaluate their risks from Compliance perspective;
+        - Develop and execute on methodology for rating assets;
+        - Present your findings and recommendations for Digital Asset Listing Group consideration;
+        - Own and maintain periodic review of assets to ensure highest compliance standards;
+        - Conduct proactive research, including ad hoc due diligence and special projects;
+        - Remain current with industry developments including blockchain trends, network protocols, actors scene, and applicable regulation;
+        - Feedback loop research findings to improve investigative tools and compliance controls;
+        - Other duties and responsibilities as required or assigned.
+
+New York, New York https://www.linkedin.com/jobs/search/?alertAction=viewjobs&currentJobId=2495000299&f_C=2857634&f_TPR=a1618815407-&keywords=coinbase&savedSearchId=1333504326&searchAlertRefId=1e14674a-9a43-434e-b8ac-e7b8621398ba
+Boulder, Colorado  https://www.linkedin.com/jobs/search/?alertAction=viewjobs&currentJobId=2495000300&f_C=2857634&f_TPR=a1618815407-&keywords=coinbase&savedSearchId=1333504326&searchAlertRefId=1e14674a-9a43-434e-b8ac-e7b8621398ba
+Denver, Colorado  https://www.linkedin.com/jobs/search/?alertAction=viewjobs&currentJobId=2495000303&f_C=2857634&f_TPR=a1618815407-&keywords=coinbase&savedSearchId=1333504326&searchAlertRefId=1e14674a-9a43-434e-b8ac-e7b8621398ba
+Austin, Texas  https://www.linkedin.com/jobs/search/?alertAction=viewjobs&currentJobId=2494296495&f_C=2857634&f_TPR=a1618815407-&keywords=coinbase&savedSearchId=1333504326&searchAlertRefId=1e14674a-9a43-434e-b8ac-e7b8621398ba
+Portland, Oregon  https://www.linkedin.com/jobs/search/?alertAction=viewjobs&currentJobId=2494294600&f_C=2857634&f_TPR=a1618815407-&keywords=coinbase&savedSearchId=1333504326&searchAlertRefId=1e14674a-9a43-434e-b8ac-e7b8621398ba
+Los Angeles, California  https://www.linkedin.com/jobs/search/?alertAction=viewjobs&currentJobId=2494295595&f_C=2857634&f_TPR=a1618815407-&keywords=coinbase&savedSearchId=1333504326&searchAlertRefId=1e14674a-9a43-434e-b8ac-e7b8621398ba
+Seattle, Washington  https://www.linkedin.com/jobs/search/?alertAction=viewjobs&currentJobId=2494294599&f_C=2857634&f_TPR=a1618815407-&keywords=coinbase&savedSearchId=1333504326&searchAlertRefId=1e14674a-9a43-434e-b8ac-e7b8621398ba
+Dallas, Texas  https://www.linkedin.com/jobs/search/?alertAction=viewjobs&currentJobId=2494298419&f_C=2857634&f_TPR=a1618815407-&keywords=coinbase&savedSearchId=1333504326&searchAlertRefId=1e14674a-9a43-434e-b8ac-e7b8621398ba
+Raleigh, North Carolina  https://www.linkedin.com/jobs/search/?alertAction=viewjobs&currentJobId=2494299318&f_C=2857634&f_TPR=a1618815407-&keywords=coinbase&savedSearchId=1333504326&searchAlertRefId=1e14674a-9a43-434e-b8ac-e7b8621398ba
+San Francisco, California  https://www.linkedin.com/jobs/search/?alertAction=viewjobs&currentJobId=2494299317&f_C=2857634&f_TPR=a1618815407-&keywords=coinbase&savedSearchId=1333504326&searchAlertRefId=1e14674a-9a43-434e-b8ac-e7b8621398ba
+Atlanta, Georgia  https://www.linkedin.com/jobs/search/?alertAction=viewjobs&currentJobId=2494297534&f_C=2857634&f_TPR=a1618815407-&keywords=coinbase&savedSearchId=1333504326&searchAlertRefId=1e14674a-9a43-434e-b8ac-e7b8621398ba
+Chicago, Illinois  https://www.linkedin.com/jobs/search/?alertAction=viewjobs&currentJobId=2494297536&f_C=2857634&f_TPR=a1618815407-&keywords=coinbase&savedSearchId=1333504326&searchAlertRefId=1e14674a-9a43-434e-b8ac-e7b8621398ba
+
+Coinbase API Setup:
+Data Endpoints are 1. Currencies, 2. Exchange Rates, 3. Prices, and 4. Time
+    1. List known currencies. Currency codes will conform to the ISO 4217
+        standard where possible. Currencies which have or had no representation
+        in ISO 4217 may use a custom code (e.g. BTC).
+
+        HTTP REQUEST
+        GET https://api.coinbase.com/v2/currencies
+
+        Example Code:
+            from coinbase.wallet.client import Client
+            client = Client(<api_key>, <api_secret>)
+            currencies = client.get_currencies()
+
+        Example Response:
+            {
+              "data": [
+                {
+                  "id": "AED",
+                  "name": "United Arab Emirates Dirham",
+                  "min_size": "0.01000000"
+                },
+                {
+                  "id": "AFN",
+                  "name": "Afghan Afghani",
+                  "min_size": "0.01000000"
+                },
+                {
+                  "id": "ALL",
+                  "name": "Albanian Lek",
+                  "min_size": "0.01000000"
+                },
+                {
+                  "id": "AMD",
+                  "name": "Armenian Dram",
+                  "min_size": "0.01000000"
+                },
+                ...
+              }
+            }
+
+    2. Exchange Rates
+    Get current exchange rates. Default base currency is USD but it can be
+    defined as any supported currency. Returned rates will define the exchange
+    rate for one unit of the base currency.
+
+    HTTP REQUEST
+    GET https://api.coinbase.com/v2/exchange-rates
+
+    Arguments = Parameter, Type, Required, Description
+
+    Example Request:
+        from coinbase.wallet.client import Client
+        client = Client(<api_key>, <api_secret>)
+
+        rates = client.get_exchange_rates(currency='BTC')
+
+    Example Response:
+        {
+          "data": {
+            "currency": "BTC",
+            "rates": {
+              "AED": "36.73",
+              "AFN": "589.50",
+              "ALL": "1258.82",
+              "AMD": "4769.49",
+              "ANG": "17.88",
+              "AOA": "1102.76",
+              "ARS": "90.37",
+              "AUD": "12.93",
+              "AWG": "17.93",
+              "AZN": "10.48",
+              "BAM": "17.38",
+              ...
+            }
+          }
+        }
+
+    3. Prices
+    a) Buy Price
+    Get the total price to buy one bitcoin or ether
+    Note that exchange rates fluctuates so the price is only correct for
+    seconds at the time. This buy price includes standard Coinbase fee (1%)
+    but excludes any other fees including bank fees. If you need more accurate
+    price estimate for a specific payment method or amount, see buy bitcoin
+    endpoint and quote: true option.
+
+    HTTP REQUEST:
+    GET https://api.coinbase.com/v2/prices/:currency_pai/buy
+
+    Example Request:
+        from coinbase.wallet.client import Client
+        client = Client(<api_key>, <api_secret>)
+
+        price = client.get_buy_price(currency_pair = 'BTC-USD')
+
+    Example Response:
+        {
+          "data": {
+            "amount": "1020.25",
+            "currency": "USD"
+          }
+        }
+
+    b) Sell Price
+    Get the total price to sell one bitcoin or ether
+    Note that exchange rates fluctuates so the price is only correct for
+    seconds at the time. This sell price includes standard Coinbase fee (1%)
+    but excludes any other fees including bank fees. If you need more
+    accurate price estimate for a specific payment method or amount,
+    see sell bitcoin endpoint and quote: true option.
+
+    HTTP REQUEST:
+    GET https://api.coinbase.com/v2/prices/:currency_pair/sell
+
+    Example Request:
+        from coinbase.wallet.client import Client
+        client = Client(<api_key>, <api_secret>)
+
+        price = client.get_sell_price(currency_pair = 'BTC-USD')
+
+    Example Response:
+        {
+          "data": {
+            "amount": "1010.25",
+            "currency": "USD"
+          }
+        }
+
+    c) Spot Price
+    Get the current market price for bitcoin. This is usually somewhere in between the buy and sell price.
+
+    Note that exchange rates fluctuates so the price is only correct for seconds at the time.
+
+    You can also get historic prices with date parameter.
+
+    Example Request:
+        from coinbase.wallet.client import Client
+        client = Client(<api_key>, <api_secret>)
+
+        price = client.get_spot_price(currency_pair = 'BTC-USD')
+
+    Example Response:
+        {
+          "data": {
+            "amount": "1015.00",
+            "currency": "USD"
+          }
+        }
+
+The official Coinbase Python Github account is the following link:
+https://github.com/coinbase/coinbase-python
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------
+E*Trade
+    Which companies are labeled in teh Blockchain&Cryptocurrency industry?
+    Coinbase
+
+    Which companies are considered a similar comparison to the Blockchain&Cryptocurrency
+    Industry?
+    FinancialTechnology(Fintech)&Infrastructure
+
+    What is an ICO?
+    https://us.etrade.com/knowledge/library/futures/initial-coin-offerings
+
+-------------------------------------------------------------------------------------------------------------------
+wikipedia:
+    https://en.wikipedia.org/wiki/Non-fungible_token#Standards_in_blockchains
+
+
+
