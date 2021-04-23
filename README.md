@@ -29,8 +29,10 @@ Google Docs and Github Readme
 Slack under the private channel fp-team-4, Github, maybe Clubhouse
 
 ## Data Sources:
+
 [Kaggle Dataset](http://www.kaggle.com/vepnar/nft-art-dataset)
-## Data Size: 1MB
+## Data Size: 
+1MB
 ## Number of Datasets/Tables: 
 1 Dataset
 ## Number of Rows: 
