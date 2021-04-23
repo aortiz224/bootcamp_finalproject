@@ -15,36 +15,47 @@ Undecided
 Mayur Amrutiya @mayuramrutiya
 
 ## Project General Topic: 
-Blockchain & Non-fungible tokens (NFTs)
+Non-fungible tokens (NFTs)
 ## Project Title: 
-*under construction*
+NFTs as Art
 ## Project Questions: 
 Is novelty or innovation driving the blockchain craze? Are NFTs a case for intellectual property or just another digital fad? How vertical can a horizontal innovation travel?
 ## Project Proposal: 
 *under construction*
 ## Project Management Method: 
-Individual Remote Branches (if David can figure his out)
+Individual Remote Branches
+Google Docs and Github Readme
 ## Project Communication: 
 Slack under the private channel fp-team-4, Github, maybe Clubhouse
 
 ## Data Sources:
-## Data Size:
-## Number of Datasets/Tables:
-## Number of Rows:
+![Kaggle Dataset](https://www.kaggle.com/vepnar/nft-art-dataset)
+## Data Size: 1MB
+## Number of Datasets/Tables: 
+1 Dataset
+## Number of Rows: 
+4118
 ## Number of Columns:
+15
 ## Column Names, Descriptions, and Data Types:
+### Column Names:
+title, name, creator, art_series,price, symbol, type, likes, nsfw, tokens, year, rights, royalty, cid, path
+### Descriptions:
+Title of the art piece, Name of the art piece, Creator of the art piece,  Name of the collection the art piece is a part of, Price of the art piece in the given symbol, Currency the art piece is sold in, Type of art, Amount of likes the art piece got, Label if the art piece is safe for work(Example of not safe for work are sexual art pieces), Amount of art pieces for sale, Year the author created the art piece, 1=Private 3=Limited production, Unused, IPFS Hash, Path to the art piece
+### Data Types:
+String, String, String, String, Integer, String, String, Integer, Boolean, Integer, Integer, Integer, Integer, String, String
 ## Missing Data Issues:
 ## Plan to Resolve Missing Data Issues:
 
 ## Data Processing Plans
 1. Read the data
 2. Clean the data
-3. Programming languages / tools we use / reasons we will use this data
+3. Most likely, Pandas
 
 ## Database Plans
-- Structure or Unstructured
+- Structured
 - Database schema / mockup
-- Programming Languages / Tools to use (e.g., PostgreSQL)
+- PostgreSQL
 - ETL (Extract, Transform, Load) plans
 
 ## Data Analysis Plans
@@ -53,10 +64,10 @@ Slack under the private channel fp-team-4, Github, maybe Clubhouse
 - Hypothesis Testing
 
 ## Machine Learning Plans
-- Supervised
-- Unsupervised
+- Supervised(recommended) and/or Unsupervised
+- Supervised: Classification and/or Regression
 - Deep Learning
-- Mockup of inital & simple models
+- Mockup of initial & simple models
 
 ## Presentation
 - Link
