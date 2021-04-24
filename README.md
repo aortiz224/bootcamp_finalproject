@@ -20,6 +20,9 @@ Non-fungible tokens (NFTs)
 NFTs as Art
 ## Project Questions: 
 Is novelty or innovation driving the blockchain craze? Are NFTs a case for intellectual property or just another digital fad? How vertical can a horizontal innovation travel?
+
+Yaser
+- Does the type of art NFT (Photo, GIF, Video) affect its price?
 ## Project Proposal: 
 *under construction*
 ## Project Management Method: 
@@ -57,6 +60,22 @@ String, String, String, String, Integer, String, String, Integer, Boolean, Integ
 ## Database Plans
 - Structured
 - Database schema / mockup
+  - Artwork_NFT (
+	title VARCHAR,
+	name_of_work VARCHAR,
+	creator VARCHAR,
+	art_series VARCHAR,
+	price DECIMAL,
+	symbol VARCHAR,
+	type_of_nft VARCHAR,
+	likes INT,
+	nsfw BOOLEAN,
+	tokens INT,
+	year_create INT,
+	rights INT,
+	royalty INT,
+	cid VARCHAR,
+	path_of_work VARCHAR
 - PostgreSQL
 - ETL (Extract, Transform, Load) plans
 
