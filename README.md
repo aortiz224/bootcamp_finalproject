@@ -3,7 +3,7 @@
 ## Team Number: 
 4
 ## Team Members: 
-Ariela Ortiz, Jonathan Lozano, Yaser Kassam
+Ariela Ortiz, Jonathan Lozano, Yaser Kassam, David Adams
 ## Team Name: 
 Undecided
 ## Team Roles:
@@ -15,14 +15,17 @@ Undecided
 Mayur Amrutiya @mayuramrutiya
 
 ## Project General Topic: 
-Non-fungible tokens (NFTs)
+Non-Fungible tokens (NFTs)
 ## Project Title: 
 NFTs as Art
 ## Project Questions: 
 Is novelty or innovation driving the blockchain craze? Are NFTs a case for intellectual property or just another digital fad? How vertical can a horizontal innovation travel?
 
-Yaser
-- Does the type of art NFT (Photo, GIF, Video) affect its price?
+|Responsible Team Member|Questions to Analyse|
+|-----------------------|--------------------|
+|Yaser|Does the type of art NFT (Photo, GIF, Video) affect its price?|
+|Ariela|How NSFW content influences the price? *(Resources: Supervised Machine Learning in Jupyter Notebook)*|
+
 ## Project Proposal: 
 *under construction*
 ## Project Management Method: 
