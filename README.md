@@ -25,6 +25,7 @@ Is novelty or innovation driving the blockchain craze? Are NFTs a case for intel
 |-----------------------|--------------------|
 |Yaser|Does the type of art NFT (Photo, GIF, Video) affect its price?|
 |Ariela|How NSFW content influences the price? *(Resources: Supervised Machine Learning in Jupyter Notebook)*|
+|Jonathan|What effect does the number of likes an NFT has have on the price of said NFT?|
 
 ## Project Proposal: 
 *under construction*
