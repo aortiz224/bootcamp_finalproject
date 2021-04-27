@@ -58,8 +58,8 @@ String, String, String, String, Integer, String, String, Integer, Boolean, Integ
 
 ## Data Processing Plans
 1. Read the data
-2. Clean the data
-3. Most likely, Pandas
+2. Clean the data - drop "symbol", clean "year" (1998 - 2021), change columns to more user-friendly format
+3. Use Postgres and Pandas
 
 ## Database Plans
 - Structured
