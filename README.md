@@ -1,4 +1,4 @@
-# bootcamp_finalproject
+# Data Analytics Bootcamp Final Project
 
 ## Team Number: 
 4
@@ -9,7 +9,7 @@ Undecided
 ## Team Roles:
 - Yaser Kassam - @yaserkassam - Machine Learning
 - David Adams - @davidatoms - Databases
-- Ariel Ortiz - @aortiz224 - Github Manager
+- Ariela Ortiz - @aortiz224 - Github Manager
 - Jonathan Lozano - Project Manager
 ## Teacher's Assistant: 
 Mayur Amrutiya @mayuramrutiya
@@ -19,19 +19,17 @@ Non-Fungible tokens (NFTs)
 ## Project Title: 
 NFTs as Art
 ## Project Questions: 
-Is novelty or innovation driving the blockchain craze? Are NFTs a case for intellectual property or just another digital fad? How vertical can a horizontal innovation travel?
 
 |Responsible Team Member|Questions to Analyse|
 |-----------------------|--------------------|
 |Yaser|Does the type of art NFT (Photo, GIF, Video) affect its price?|
 |Ariela|How NSFW content influences the price? *(Resources: Supervised Machine Learning in Jupyter Notebook)*|
 |Jonathan|What effect does the number of likes an NFT has have on the price of said NFT?|
-
+|     |Is novelty or innovation driving the blockchain craze? Are NFTs a case for intellectual property or just another digital fad? How vertical can a horizontal innovation travel?|
 ## Project Proposal: 
-*under construction*
+Growing Industry with a Future or Current Sensation?
 ## Project Management Method: 
-Individual Remote Branches
-Google Docs and Github Readme
+Individual Remote Branches, Slack, Google Slides and Github Readme
 ## Project Communication: 
 Slack under the private channel fp-team-4, Github, maybe Clubhouse
 
@@ -53,8 +51,8 @@ title, name, creator, art_series,price, symbol, type, likes, nsfw, tokens, year,
 Title of the art piece, Name of the art piece, Creator of the art piece,  Name of the collection the art piece is a part of, Price of the art piece in the given symbol, Currency the art piece is sold in, Type of art, Amount of likes the art piece got, Label if the art piece is safe for work(Example of not safe for work are sexual art pieces), Amount of art pieces for sale, Year the author created the art piece, 1=Private 3=Limited production, Unused, IPFS Hash, Path to the art piece
 ### Data Types:
 String, String, String, String, Integer, String, String, Integer, Boolean, Integer, Integer, Integer, Integer, String, String
-## Missing Data Issues:
-## Plan to Resolve Missing Data Issues:
+## Missing Data Issues: N/A
+## Plan to Resolve Missing Data Issues: N/A
 
 ## Data Processing Plans
 1. Read the data
@@ -95,7 +93,7 @@ String, String, String, String, Integer, String, String, Integer, Boolean, Integ
 - Mockup of initial & simple models
 
 ## Presentation
-- Link
-- Webpage through Github
+[Google Slides](https://docs.google.com/presentation/d/1rfDBABNm2Aaknv26U_QnbfN1EjrS2tjRFv6WStWSxDk/edit#slide=id.p)
+- THIS Github
 - Powerpoint presentation (google slides or powerpoint)
 - Report
