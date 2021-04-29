@@ -56,7 +56,7 @@ String, String, String, String, Integer, String, String, Integer, Boolean, Integ
 
 ## Data Processing Plans
 1. Read the data
-2. Clean the data - drop "symbol", clean "year" (1998 - 2021), change columns to more user-friendly format
+2. Clean the data - drop "symbol", drop "cid", drop "royalty",drop "path_of_work", clean "year" (1998 - 2021), change columns to more user-friendly format
 3. Use Postgres and Pandas
 
 ## Database Plans
