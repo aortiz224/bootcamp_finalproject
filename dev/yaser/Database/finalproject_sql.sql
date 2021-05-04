@@ -1,10 +1,12 @@
-ALTER TABLE artwork_nft
-RENAME COLUMN symbol TO sold_in;
+DROP TABLE artwork_nft;
 
-ALTER TABLE artwork_nft
-RENAME COLUMN tokens TO total_units;
+SELECT * FROM new_artwork_nft;
 
-CREATE TABLE new_artwork_nft
-AS SELECT *
-FROM artwork_nft
-WHERE year_create >= 1998 AND year_create <=2021;
+CREATE TABLE final_nft
+AS SELECT title, name_of_work, creator, art_series, price, type_of_nft, likes, nsfw,
+		total_units, year_create, rights
+FROM new_artwork_nft;
+
+SELECT * FROM final_nft;
+
+DROP TABLE new_artwork_nft;
