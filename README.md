@@ -24,7 +24,7 @@ NFTs as Art
 |-----------------------|--------------------|
 |Yaser|Does the type of art NFT (Photo, GIF, Video) affect its price?|
 |Ariela|How NSFW content influences the price? *(Resources: Supervised Machine Learning in Jupyter Notebook)*|
-|Jonathan|What effect does the number of likes an NFT has have on the price of said NFT?|
+|Jonathan|What effect does the age of an NFT have on the price of said NFT?|
 |     |Is novelty or innovation driving the blockchain craze? Are NFTs a case for intellectual property or just another digital fad? How vertical can a horizontal innovation travel?|
 ## Project Proposal: 
 Growing Industry with a Future or Current Sensation?
