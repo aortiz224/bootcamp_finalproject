@@ -1,18 +1,14 @@
 # Data Analytics Bootcamp Final Project
 
-## Team Number: 
-4
-## Team Members: 
-Ariela Ortiz, Jonathan Lozano, Yaser Kassam, David Adams
-## Team Name: 
-Undecided
-## Team Roles:
-- Yaser Kassam - @yaserkassam - Machine Learning
-- David Adams - @davidatoms - Databases
-- Ariela Ortiz - @aortiz224 - Github Manager
-- Jonathan Lozano - Project Manager
-## Teacher's Assistant: 
-Mayur Amrutiya @mayuramrutiya
+| Team Info |  |
+| --------- | ------------------- |
+| Team Name | Digital Data Divers |
+| Team Number | 4 |
+| Team Member 1 | [Ariela Ortiz](www.github.com/aoritz224) |
+| Team Member 2 | [Jonathan Lozano](www.github.com/jlozano1990) |
+| Team Member 3 | [Yaser Kassam](www.github.com/yaserkassam) |
+| Team Member 4 | [David Adams](www.github.com/davidatoms) |
+| Teacher's Asssistant | [Mayur Amrutiya](www.github.com/mayuramrutiya) |
 
 ## Project General Topic: 
 Non-Fungible tokens (NFTs)
@@ -20,12 +16,12 @@ Non-Fungible tokens (NFTs)
 NFTs as Art
 ## Project Questions: 
 
-|Responsible Team Member|Questions to Analyse|
+|Responsible Team Member|Questions to Analyze|
 |-----------------------|--------------------|
 |Yaser|Does the type of art NFT (Photo, GIF, Video) affect its price?|
 |Ariela|How NSFW content influences the price? *(Resources: Supervised Machine Learning in Jupyter Notebook)*|
 |Jonathan|What effect does the number of likes an NFT has have on the price of said NFT?|
-|     |Is novelty or innovation driving the blockchain craze? Are NFTs a case for intellectual property or just another digital fad? How vertical can a horizontal innovation travel?|
+| David |How does the price of the SWAP blockchain affect the price of NFTs on the blockchain?|
 ## Project Proposal: 
 Growing Industry with a Future or Current Sensation?
 ## Project Management Method: 
