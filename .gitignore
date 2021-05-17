@@ -145,3 +145,6 @@ setup.py
 .idea/modules.xml
 .idea/vcs.xml
 setup.py
+*.xml
+dev/.DS_Store
+dev/davids/.DS_Store
