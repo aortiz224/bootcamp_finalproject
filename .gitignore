@@ -148,3 +148,4 @@ setup.py
 *.xml
 dev/.DS_Store
 dev/davids/.DS_Store
+dev/davids/datasets/.DS_Store
