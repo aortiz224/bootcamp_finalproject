@@ -1,0 +1,16 @@
+price_of_blockchain + value_of_art = price_of_NFT
+
+price_of_blockchain:
+- max supply
+    - "The amount of coins is analagous with the amount of stocks available on the stock market."
+    coinmarketcap.com
+    - 401,019,702.47 HIVE
+- ease of finding new coins
+
+value_of_art:
+- price of supplies it was built on
+- scarcity
+- demand
+    - artist
+    - likes
+    -
