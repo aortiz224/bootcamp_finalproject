@@ -149,3 +149,7 @@ setup.py
 dev/.DS_Store
 dev/davids/.DS_Store
 dev/davids/datasets/.DS_Store
+dev/davids/final_project.py
+dev/davids/final_project.py
+dev/davids/datasets/new_kaggle_data.xlsx
+dev/davids/datasets/kaggle_dataset.csv
