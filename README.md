@@ -89,6 +89,12 @@ String, String, String, String, Integer, String, String, Integer, Boolean, Integ
 - Deep Learning
 - Mockup of initial & simple models
 
+## Data Visualizations
+Software: Tableau Public 2021.1
+- Box Plot of type of NFT as it related to Price
+- Bar Chart of Age of NFT as it relates to Price
+- Bar Chart of NSFW content sensitivity to Price 
+
 ## Presentation
 [Google Slides](https://docs.google.com/presentation/d/1rfDBABNm2Aaknv26U_QnbfN1EjrS2tjRFv6WStWSxDk/edit#slide=id.p)
 - THIS Github
