@@ -59,35 +59,37 @@ String, String, String, String, Integer, String, String, Integer, Boolean, Integ
 ## Database Plans
 - Structured
 - Database schema / mockup
-  - Artwork_NFT (
-	title VARCHAR,
-	name_of_work VARCHAR,
-	creator VARCHAR,
-	art_series VARCHAR,
-	price DECIMAL,
-	symbol VARCHAR,
-	type_of_nft VARCHAR,
-	likes INT,
-	nsfw BOOLEAN,
-	tokens INT,
-	year_create INT,
-	rights INT,
-	royalty INT,
-	cid VARCHAR,
-	path_of_work VARCHAR
-- PostgreSQL
-- ETL (Extract, Transform, Load) plans
+
+With the Kaggle database that we have we created a schema for a database called Artwork_NFT. With our schema loaded we changed column names, so they were more understandable. Such as tokens, which were the total units of art pieces being sold into total units. Next, we dropped columns that through our initial transformation we identified as not holding value such as symbol which was where the NFT was sold; because the dataset comes from Swap.Hive the column is listed with one value Swap.Hive. Next, we decided to filter the years between 1998-2021. Some years that were entered were years that had not happened like 2158 or from look as if they were entered incorrectly like 1. This we believed would affect our results in each of our questions. After extracting the data and transforming it to where we can individually explore the dataset, we created a final database named Final_NFT.
+
+![Database schema](dev/yaser/Resources/QuickDBD-export.png)
 
 ## Data Analysis Plans
-- EDA (Exploratory Data Analysis)
-- Visualizations
-- Hypothesis Testing
+### EDA (Exploratory Data Analysis)
+#### Yaser
+##### Does the type of NFT effect the price?
+The first question that we have was to see if the type of NFT effects the price of the NFT. The first step was to upload the database and to look at the columns that were relevant to this question. From the Final_NFT Database a new pandas dataframe was created from the type_of_nft column and the price column. Initially looking at all the prices there were many outliers. After, filtering the outliers a box and whisker plot was created to see if visually we can see a difference between the 3 types of NFTs (GIF, Video, Photo). As you can see below there looks like there may be a significance in video, but the graphs were very similar.
+
+![Type of NFT boxplot](dev/yaser/Resources/Price_based_on_nft.png)
+
+To verify if there is a significance that the price is affected by the type of NFT using a one-way anova, we can see that the p-value is .0298. This tells us that there is significance between the relationship of price and the type of nft.
+
+![Anova Results](dev/yaser/Resources/oneway_anova.png)
 
 ## Machine Learning Plans
-- Supervised(recommended) and/or Unsupervised
-- Supervised: Classification and/or Regression
-- Deep Learning
-- Mockup of initial & simple models
+
+Using machine learning we tried to create a model that can predict the price if a new NFT was created. We created a new column named age to give an age to each NFT from the year_create column. We also, created a new column price_log10 that uses np.log10 to convert the price column because of the high variances between the prices and it scales the data.
+
+- First, we identified our x variables as: type of nft, likes, nsfw, total units, age, rights, and creator.
+- Second, the y value that we are trying to predict is the price_log10.
+
+With the data split into our variables, we split the data, used StandardScaler to scale the data and fit it into 3 different models (Multiple Linear Regression, Decision Tree Regressor, Random Forest Regressor). After adjusting each of the models we came with the result that the Random Forest Regressor gave us the best score of 41.5%.
+
+|Type of Model| Model Score|
+|-------------|------------|
+|Multiple Linear Regression|6.6 %|
+|Decision Tree|10.2 %|
+|Random Forest|41.5 %|
 
 ## Data Visualizations
 Software: Tableau Public 2021.1
