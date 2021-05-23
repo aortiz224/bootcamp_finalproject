@@ -28,7 +28,7 @@ Growing Industry with a Future or Current Sensation?
 ## Project Management Method: 
 Individual Remote Branches, Slack, Google Slides and Github Readme
 ## Project Communication: 
-Slack under the private channel fp-team-4, Github, maybe Clubhouse
+Slack under the private channel fp-team-4, Github
 
 ## Data Sources:
 
