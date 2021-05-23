@@ -94,7 +94,7 @@ With the data split into our variables, we split the data, used StandardScaler t
 ## Data Visualizations
 Software: Tableau Public 2021.1
 
-[NFT Tableau Story](https://public.tableau.com/views/NFTs_Artwork_Analysis/NFTStory?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
+[NFT Tableau Story](https://public.tableau.com/views/NFTs_Artwork_Analysis_16211277688470/NFTStory?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 - Box Plot of type of NFT as it related to Price
 - Bar Chart of Age of NFT as it relates to Price
 - Bar Chart of NSFW content sensitivity to Price 
